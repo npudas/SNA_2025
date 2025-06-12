@@ -1,0 +1,48 @@
+Project 10: News Propagation in Social Media 
+We would like to evaluate the news propagation on social media 
+1. Consider a very recent news of your choice, such as the death of Pop Francis or any other 
+news which is actively shared in social media sites such as Facebook and Twitter (X.com). 
+Use Facebook graph API, see, e.g., https://developers.facebook.com/docs/graph
+api/reference/v22.0/url, to get engagement scores, such as comment_count, share_count, 
+reaction_count.. We want to monitor the dynamic of these counts in time. So, in the 
+absence of past statistics data (feel free if you find alternative API to retrieve past data), 
+write a program that collects the statistics of these data parameters over three days period 
+and record the values of these parameters for each hour. Draw the graph showing the 
+evolution of each parameter over time. Use Polyfit function to fit a polynomial curve to 
+the curve https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html, and record 
+the goodness of fit using R-squared measure (available in several python packages, e.g., 
+sklearn.metrics as r2_score).  Repeat the curve fitting where instead of polynomial fit, 
+exponential fit will be employed, see an example of implementation at 
+https://rowannicholls.github.io/python/mathematics/curve_fitting/exponential.html, and 
+calculate the corresponding R-squared score. Finally, we would like to test the power-law 
+distribution for each parameter. For this purpose, consider the range of values of each 
+parameter, say, [p_min  p_max] where p_max stands for the largest value of the parameter 
+and p_min its smallest value, and consider a 10-bin subdivision (e.g., [p_min  k], [k, 2k], 
+[2k  3k],…[9k p_max] where k=(p_max-p_min)/10),  then count the number of hits at 
+each bin. After that draw the curve showing the frequency of each bin. You may draw the 
+plot in log-log scale to perform a linear fit, and then compute the corresponding R-squared 
+score. Repeat this process of each parameter and conclude on the fitting of power-law 
+distribution to these parameters. 
+
+2. Repeat the subtasks of 1) when youtube platform is used (You may restrict to share_count 
+only parameters). See https://developers.google.com/youtube/analytics/ for additional 
+resources.   
+
+3. Repeat the subtasks of 1) when Twitter platform (X.com) is used instead of Facebook. You 
+may need to use third party APIs to bypass paid X.com APIs for retrieving data. 
+
+4. Now we want to approach the diffusion of news information as an epidemiological process 
+where the number of shares correspond to the number infected. Use a population of 100 
+times the largest number of shares observed. Use the NDLib library of diffusion process to 
+simulate the best parameters of SIS model that approximate the evolution of the number of 
+shares for Facebook, Youtube and twitter (separate result for each social media). You 
+would need to suggest an empirical approach to estimate the parameters of the SIS model 
+that best approximate the evolution each parameter. A possible example is to use 
+incremental change of the gamma and beta probabilities, say, for instance, starting from 
+0.05 till 0.9 with incremental step of 0.05.  
+
+5. Repeat 4) when SIR process is employed. Discuss the limitations of the current 
+approximations. 
+
+6. Identify relevant literature in the field and discuss the potential and limitations of the 
+approach employed.

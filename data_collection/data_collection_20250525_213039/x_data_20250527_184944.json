@@ -1,0 +1,566 @@
+{
+    "data": {
+        "tweetResult": {
+            "result": {
+                "__typename": "Tweet",
+                "rest_id": "1925868450863321127",
+                "core": {
+                    "user_results": {
+                        "result": {
+                            "__typename": "User",
+                            "id": "VXNlcjo3NDIxNDM=",
+                            "rest_id": "742143",
+                            "affiliates_highlighted_label": {
+                                "label": {
+                                    "url": {
+                                        "url": "https://twitter.com/BBCNews",
+                                        "urlType": "DeepLink"
+                                    },
+                                    "badge": {
+                                        "url": "https://pbs.twimg.com/profile_images/1529107486271225859/03qcVNIk_bigger.jpg"
+                                    },
+                                    "description": "BBC News (UK)",
+                                    "userLabelType": "BusinessLabel",
+                                    "userLabelDisplayType": "Badge"
+                                }
+                            },
+                            "avatar": {
+                                "image_url": "https://pbs.twimg.com/profile_images/1529107170448523264/q3VwEx38_normal.jpg"
+                            },
+                            "core": {
+                                "created_at": "Thu Feb 01 07:44:29 +0000 2007",
+                                "name": "BBC News (World)",
+                                "screen_name": "BBCWorld"
+                            },
+                            "dm_permissions": {},
+                            "is_blue_verified": true,
+                            "legacy": {
+                                "default_profile": false,
+                                "default_profile_image": false,
+                                "description": "News, features and analysis from the World's newsroom. Breaking news, follow @BBCBreaking. UK news, @BBCNews. Latest sports news @BBCSport",
+                                "entities": {
+                                    "description": {
+                                        "urls": []
+                                    },
+                                    "url": {
+                                        "urls": [
+                                            {
+                                                "display_url": "bbc.com/news",
+                                                "expanded_url": "http://www.bbc.com/news",
+                                                "url": "https://t.co/4zUWrLAYqP",
+                                                "indices": [
+                                                    0,
+                                                    23
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "fast_followers_count": 0,
+                                "favourites_count": 2,
+                                "followers_count": 41454939,
+                                "friends_count": 17,
+                                "has_custom_timelines": true,
+                                "is_translator": false,
+                                "listed_count": 132956,
+                                "media_count": 27232,
+                                "normal_followers_count": 41454939,
+                                "pinned_tweet_ids_str": [],
+                                "possibly_sensitive": false,
+                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/742143/1663658662",
+                                "profile_interstitial_type": "",
+                                "statuses_count": 397101,
+                                "translator_type": "none",
+                                "url": "https://t.co/4zUWrLAYqP",
+                                "withheld_in_countries": []
+                            },
+                            "location": {
+                                "location": "London, UK"
+                            },
+                            "media_permissions": {},
+                            "parody_commentary_fan_label": "None",
+                            "profile_image_shape": "Square",
+                            "privacy": {
+                                "protected": false
+                            },
+                            "relationship_perspectives": {},
+                            "tipjar_settings": {
+                                "is_enabled": false,
+                                "bandcamp_handle": "",
+                                "bitcoin_handle": "",
+                                "cash_app_handle": "",
+                                "ethereum_handle": "",
+                                "gofundme_handle": "",
+                                "patreon_handle": "",
+                                "pay_pal_handle": "",
+                                "venmo_handle": ""
+                            },
+                            "verification": {
+                                "verified": false,
+                                "verified_type": "Business"
+                            }
+                        }
+                    }
+                },
+                "card": {
+                    "rest_id": "https://t.co/bqL6kRhiya",
+                    "legacy": {
+                        "binding_values": [
+                            {
+                                "key": "photo_image_full_size_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 419,
+                                        "width": 800,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=800x419"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 150,
+                                        "width": 267,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=280x150"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "description",
+                                "value": {
+                                    "string_value": "Harvard has around 6,800 foreign students currently - a third are from China, and more than 700 are Indian.",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "domain",
+                                "value": {
+                                    "string_value": "www.bbc.com",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 320,
+                                        "width": 569,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=800x320_1"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 202,
+                                        "width": 386,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=386x202"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 202,
+                                        "width": 386,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=386x202"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 419,
+                                        "width": 800,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=800x419"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 81,
+                                        "width": 144,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=144x144"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size_alt_text",
+                                "value": {
+                                    "string_value": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "vanity_url",
+                                "value": {
+                                    "scribe_key": "vanity_url",
+                                    "string_value": "bbc.com",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 314,
+                                        "width": 600,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=600x314"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_alt_text",
+                                "value": {
+                                    "string_value": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "thumbnail_image_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [
+                                            {
+                                                "rgb": {
+                                                    "blue": 38,
+                                                    "green": 21,
+                                                    "red": 2
+                                                },
+                                                "percentage": 39.17
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 171,
+                                                    "green": 167,
+                                                    "red": 148
+                                                },
+                                                "percentage": 21.08
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 160,
+                                                    "red": 140
+                                                },
+                                                "percentage": 13.11
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 132,
+                                                    "red": 153
+                                                },
+                                                "percentage": 5.6
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 53,
+                                                    "green": 16,
+                                                    "red": 2
+                                                },
+                                                "percentage": 1.71
+                                            }
+                                        ]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            },
+                            {
+                                "key": "title",
+                                "value": {
+                                    "string_value": "Harvard University's foreign students reel from Trump administration ban",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [
+                                            {
+                                                "rgb": {
+                                                    "blue": 38,
+                                                    "green": 21,
+                                                    "red": 2
+                                                },
+                                                "percentage": 39.17
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 171,
+                                                    "green": 167,
+                                                    "red": 148
+                                                },
+                                                "percentage": 21.08
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 160,
+                                                    "red": 140
+                                                },
+                                                "percentage": 13.11
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 132,
+                                                    "red": 153
+                                                },
+                                                "percentage": 5.6
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 53,
+                                                    "green": 16,
+                                                    "red": 2
+                                                },
+                                                "percentage": 1.71
+                                            }
+                                        ]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 314,
+                                        "width": 600,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=600x314"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [
+                                            {
+                                                "rgb": {
+                                                    "blue": 38,
+                                                    "green": 21,
+                                                    "red": 2
+                                                },
+                                                "percentage": 39.17
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 171,
+                                                    "green": 167,
+                                                    "red": 148
+                                                },
+                                                "percentage": 21.08
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 160,
+                                                    "red": 140
+                                                },
+                                                "percentage": 13.11
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 111,
+                                                    "green": 132,
+                                                    "red": 153
+                                                },
+                                                "percentage": 5.6
+                                            },
+                                            {
+                                                "rgb": {
+                                                    "blue": 53,
+                                                    "green": 16,
+                                                    "red": 2
+                                                },
+                                                "percentage": 1.71
+                                            }
+                                        ]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            },
+                            {
+                                "key": "photo_image_full_size_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            },
+                            {
+                                "key": "card_url",
+                                "value": {
+                                    "scribe_key": "card_url",
+                                    "string_value": "https://t.co/bqL6kRhiya",
+                                    "type": "STRING"
+                                }
+                            },
+                            {
+                                "key": "summary_photo_image_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Shreya Mishra Reddy stands behind a sign with the words Harvard Business School and a crest of the institution at its campus in Boston in the United States.",
+                                        "height": 576,
+                                        "width": 1024,
+                                        "url": "https://pbs.twimg.com/card_img/1925868451937112064/cajmmdl7?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }
+                        ],
+                        "card_platform": {
+                            "platform": {
+                                "audience": {
+                                    "name": "production"
+                                },
+                                "device": {
+                                    "name": "Swift",
+                                    "version": "12"
+                                }
+                            }
+                        },
+                        "name": "summary_large_image",
+                        "url": "https://t.co/bqL6kRhiya",
+                        "user_refs_results": []
+                    }
+                },
+                "unmention_data": {},
+                "edit_control": {
+                    "edit_tweet_ids": [
+                        "1925868450863321127"
+                    ],
+                    "editable_until_msecs": "1748001394000",
+                    "is_edit_eligible": true,
+                    "edits_remaining": "5"
+                },
+                "is_translatable": false,
+                "views": {
+                    "count": "153591",
+                    "state": "EnabledWithCount"
+                },
+                "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+                "grok_analysis_button": true,
+                "legacy": {
+                    "bookmark_count": 35,
+                    "bookmarked": false,
+                    "created_at": "Fri May 23 10:56:34 +0000 2025",
+                    "conversation_id_str": "1925868450863321127",
+                    "display_text_range": [
+                        0,
+                        102
+                    ],
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "timestamps": [],
+                        "urls": [
+                            {
+                                "display_url": "bbc.in/3SjPeoX",
+                                "expanded_url": "https://bbc.in/3SjPeoX",
+                                "url": "https://t.co/bqL6kRhiya",
+                                "indices": [
+                                    79,
+                                    102
+                                ]
+                            }
+                        ],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 399,
+                    "favorited": false,
+                    "full_text": "'We did not sign up for this': Harvard's foreign students are stuck and scared https://t.co/bqL6kRhiya",
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_editable": true,
+                    "quote_count": 16,
+                    "reply_count": 211,
+                    "retweet_count": 99,
+                    "retweeted": false,
+                    "user_id_str": "742143",
+                    "id_str": "1925868450863321127"
+                }
+            }
+        }
+    }
+}
